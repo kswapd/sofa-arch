@@ -5,15 +5,25 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-   
 
+    <parent>
+        <groupId>com.alipay.sofa</groupId>
+        <artifactId>sofaboot-dependencies</artifactId>
+        <version>2.3.2</version>
+    </parent>
 
     <groupId>com.dcits</groupId>
     <artifactId>sofa-starter</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-<dependencies>
 
+
+
+<dependencies>
+    <dependency>
+        <groupId>com.alipay.sofa</groupId>
+        <artifactId>rpc-sofa-boot-starter</artifactId>
+    </dependency>
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>sofa-rpc-all</artifactId>

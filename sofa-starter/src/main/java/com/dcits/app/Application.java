@@ -25,9 +25,6 @@ public class Application {
 
 	public static void StartProvider()
 	{
-
-
-
 		ServerConfig serverConfig = new ServerConfig()
 				.setProtocol(protocol) // 设置一个协议，默认bolt
 				.setPort(port) // 设置一个端口，默认12200
